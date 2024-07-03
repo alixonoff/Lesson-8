@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+header{
+    position: fixed;
+    width: 1300px;
+    height: 40px;
+    z-index: 15;
+    font-size: 21px;
+    z-index: 15;
+   
+}
+.links{
+    padding: 10px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.links a{
+    width: 80px;
+    height: 30px;
+    border-radius: 18px;
+    text-align: center;
+}
+main{
+    position: relative;
+    width: 1300px;
+}
+img{
+    transform: scale(1.6);
+    position: absolute;
+    top:140px ;
+    right: 185px;
+    z-index: 0;
+}
+.text{
+    position: absolute;
+    top: 90px;
+    left: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+
+}
+p{
+    width: 500px;
+    font-size: 17px;
+}
+button{
+    border: none;
+    height: 34px;
+    color: white;
+    background: #000;
+    width: 150px;
+    border-radius: 18px;
+    font-size: 17px;
+
+}
+.keyingi{
+    height: 34px;
+    width: 55px;
+    border-radius: 18px 0 0   18px;
+}
+.one{
+    border-radius: 0 18px 18px 0;
+}
+.buttons{
+    position: fixed ;
+    bottom:  100px;
+    right: 93px;
+    height: 34px;
+    background: #000;
+    width: 114px;
+    border-radius: 18px;
+}
+.links a:hover{
+    background: black;
+    color: white;
+  
+}

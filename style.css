@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 300vh;
+}
+.box{
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* O'zini joylashuviga nisbatan */
+.relative{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    background: goldenrod;
+}
+/* FIXED viweportga nisbatan joylashadi */
+.fixed{
+    background: chartreuse;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    z-index: 15;
+}
+
+.containe{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: bisque;
+}
+
+/* absolute erkin */
+.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: cornflowerblue;
+}
+.stcky{
+    position: sticky;
+    width: 100%;
+    top: 20px;
+    background: crimson;
+}

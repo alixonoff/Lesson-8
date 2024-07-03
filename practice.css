@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 0 400px;
+}
+h1{
+    position: sticky;
+    top: 0;
+    background: lightblue;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+p{
+    font-size: 18px;
+    padding: 50px;
+}
+h1:nth-of-type(2){
+    background: violet;
+}
+h1:nth-of-type(3){
+    background: lightgreen;
+}
+h1:nth-of-type(4){
+    background: magenta;
+}
